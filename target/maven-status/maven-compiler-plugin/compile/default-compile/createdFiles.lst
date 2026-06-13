@@ -1,0 +1,7 @@
+vallegrande\edu\pe\sistemalogin\model\Expedicion.class
+vallegrande\edu\pe\sistemalogin\controller\ExpedicionController.class
+vallegrande\edu\pe\sistemalogin\model\ExpedicionDAO.class
+vallegrande\edu\pe\sistemalogin\view\MainFrame$1.class
+vallegrande\edu\pe\sistemalogin\view\MainFrame.class
+vallegrande\edu\pe\sistemalogin\App.class
+vallegrande\edu\pe\sistemalogin\model\ConexionBD.class

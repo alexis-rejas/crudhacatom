@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  mysql:
+    build: .
+    container_name: expediciones_mysql
+    ports:
+      - "3307:3306"
+
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: expediciones_db
+      MYSQL_USER: usuario_app
+      MYSQL_PASSWORD: pass123
+    volumes:
+      - mysql_data:/var/lib/mysql
+    networks:
+      - expediciones_network
+
+volumes:
+  mysql_data:
+
+networks:
+  expediciones_network:
+    driver: bridge
